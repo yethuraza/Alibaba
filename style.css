@@ -1,0 +1,248 @@
+.header_contant {
+  min-height: 680px;
+  background-image: url(./image/background_img.avif);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 1920px 680px;
+}
+.nav_top {
+  max-width: 1580px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+
+.nav_bottom {
+  max-width: 1580px;
+  margin: 0 auto;
+}
+
+.contant {
+  width: 1440px;
+  height: 540px;
+  margin: 0 auto;
+}
+
+.search_wrapper.flex.items-center {
+  width: 786px;
+  height: 56px;
+  background: white;
+  border-radius: 30px;
+}
+
+.nav_top_search{
+  width: 705px;
+  height: 40px;
+  border-radius: 30px;
+  border: 1px solid #222;
+}
+.product_nav_search{
+  width: 705px;
+  height: 50px;
+  border-radius: 30px;
+  border: 2px solid #f60;
+}
+.new_header {
+  background-color: white;
+  border-bottom: 1px solid black;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.toggle_header {
+  display: none;
+}
+
+.image_box_shadow {
+  box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+}
+
+.security {
+  background-image: url("./image/security_bg.jpg");
+  background-color: #49271c;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card1,
+.card2 {
+  backdrop-filter: blur(50px);
+  background: hsla(0, 0%, 100%, 0.11);
+  border-radius: 20px;
+  font-size: 16px;
+  height: 396px;
+  line-height: 22px;
+  overflow: hidden;
+  padding: 50px;
+  position: relative;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  width: 704px;
+}
+
+.service_item_icon.active {
+  background-color: #ffefee;
+  border-width: 0;
+  box-shadow: 0 0 0 6px #fff8dc;
+  transform: scale(1.333);
+  min-height: 60px !important;
+  min-width: 60px !important;
+  border-radius: 100%;
+  box-shadow: 0 0 0 8px #fff8dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.service_item_icon.active img {
+  width: 48px !important;
+  height: 48px !important;
+}
+
+.service_item_icon {
+  border-radius: 999px;
+  border: 2px solid #d8d8d8;
+  background-color: #fff8dc;
+  box-shadow: 0 0 0 8px #fff8dc;
+  height: 60px;
+  width: 60px;
+  z-index: 1;
+}
+
+.service_item_tail {
+  background-color: #ddd;
+  height: 400px;
+  left: 76.5px;
+  top: 155px;
+  position: absolute;
+  width: 2px;
+}
+
+.sign_up {
+  background-image: url("./image/signup_bg.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+button.owl-prev.disabled {
+  display: none !important;
+}
+button.owl-prev {
+  position: absolute;
+  font-size: 36px !important;
+  border-radius: 999px;
+  padding: 5px;
+  left: 0;
+  top: 35%;
+}
+
+button.owl-next.disabled {
+  display: none !important;
+}
+button.owl-next {
+    position: absolute;
+    font-size: 36px !important;
+    border-radius: 999px;
+    padding: 5px;
+    right: 0;
+    top: 35%;
+    
+}
+
+.owl-dots{
+  display: none;
+}
+
+.footer {
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  color: #222;
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 40px;
+  border-bottom: 1px solid black;
+}
+
+.product_footer{
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  color: #222;
+  font-size: 14px;
+  line-height: 18px;
+}
+.scrolled{
+  position: fixed;
+  background-color: white;
+  min-width: 100% !important;
+  height: 73px !important;
+  z-index: 100;
+  top: 0;
+  padding: 0 200px !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.toggle_header_action {
+  display: block;
+  position: absolute;
+  transition: height 4s ease-in-out;
+}
+.lSAction>.lSPrev ,
+.lSAction>.lSNext{
+  background-color: #a4a4a4;
+  border-radius: 100%;
+}
+.dropdown:hover>.dropdown-content {
+  display: block;
+}
+
+
+li.preview_image.lslide.active {
+  height: 600px !important;
+  width: 600px !important;
+}
+li.preview_image.lslide.active img{
+  height: 600px !important;
+  width: 600px !important;
+  margin: 0 auto;
+}
+
+ul.lSPager.lSpg {
+  display: none;
+}
+
+li.p-4.supplier_popular_item_li.lslide {
+  width: 209px !important;
+}
+
+.dropdown-content{
+  z-index: 999;
+}
+
+.ship_to_box{
+  display: none;
+}
+
+.ship_to_link:hover .ship_to_box {
+  display: block;
+}
+
+
+input.pl-4.border-transparent.focus\:border-transparent.h-8 {
+  width: 400px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+select.text-sm.text-\[\#666\].pl-2 {
+  width: fit-content;
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+.right_contant.right_contant_fixed {
+  position: fixed;
+  right: 13.5%;
+}
